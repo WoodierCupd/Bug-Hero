@@ -143,5 +143,8 @@ namespace WachtrijApp
 
             return "";
         }
+        private void labelTitel_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
