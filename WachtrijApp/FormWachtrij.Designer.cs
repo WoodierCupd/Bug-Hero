@@ -104,8 +104,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Peru;
-            this.ClientSize = new System.Drawing.Size(279, 227);
+            this.BackColor = System.Drawing.Color.OrangeRed;
+            this.ClientSize = new System.Drawing.Size(278, 223);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
             this.Controls.Add(this.AttractieLogo);
@@ -115,6 +115,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormWachtrij";
             this.Text = "Bugs of Horror";
+            this.Load += new System.EventHandler(this.FormWachtrij_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
