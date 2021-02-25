@@ -58,6 +58,7 @@
             this.labelWachttijd.Size = new System.Drawing.Size(99, 25);
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
+            this.labelWachttijd.Click += new System.EventHandler(this.labelWachttijd_Click);
             // 
             // labelWachttijdMelding
             // 
