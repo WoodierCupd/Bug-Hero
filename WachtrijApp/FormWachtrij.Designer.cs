@@ -73,6 +73,7 @@
             // 
             // AttractieLogo
             // 
+            this.AttractieLogo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
             this.AttractieLogo.Location = new System.Drawing.Point(168, 87);
@@ -128,8 +129,10 @@
             this.Controls.Add(this.labelWachttijd);
             this.Controls.Add(this.labelTitel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormWachtrij";
             this.Text = "Bug Hero";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.FormWachtrij_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
